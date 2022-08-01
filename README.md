@@ -1,1 +1,2 @@
 # mgm-movies
+This is a fun little project I created to pull in the list of Complete Universal Horror Films 1920-1960 on IMDB. I want to start watching them from the first to the last. Having them in a spread sheet would help me keep track of my progress. 
