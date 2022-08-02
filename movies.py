@@ -35,6 +35,7 @@ with open('horror-movies.csv', 'w', encoding='utf8') as c:
         year = movie.find('span', class_="lister-item-year").text
         list = [rank,title,year]
         csv.writerow(list)
+c.close()
 
 #Creating the json file
 print("Creating JSON file...")
@@ -47,7 +48,7 @@ with open('horror-movies.json', 'w') as j:
         year = movie.find('span', class_="lister-item-year").text
         list = [rank,title,year]
         json.dump(list,j)
-
+j.close()
 print("Done.")
 #That's all folks!
 
